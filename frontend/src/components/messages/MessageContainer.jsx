@@ -3,9 +3,11 @@ import MessageInput from "./MessageInput";
 import Messages from "./Messages";
 import './MessageContainer.css';
 import { TiMessages } from "react-icons/ti";
-import useConversation from '../../src/Zustand/useConversation';
+
+import useConversation from '../../Zustand/useConversation';
 import { useEffect } from 'react';
-import { useAuthContext } from '../../src/context/AuthContext';
+
+import { useAuthContext } from '../../context/AuthContext';
 
 const NoChatSelected = () => {
 	const{ authUser} = useAuthContext(); 

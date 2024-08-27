@@ -1,7 +1,7 @@
 import React from 'react';
 import './Conversation.css';
-import useConversation from '../../src/Zustand/useConversation';
-import { useSocketContext } from '../../src/context/SocketContext';
+import useConversation from '../../Zustand/useConversation';
+import { useSocketContext } from '../../context/SocketContext';
 
 const Conversation = ({conversation,lastIdx,emoji}) => {
 	const {selectedConversation,setSelectedConversation}=useConversation()

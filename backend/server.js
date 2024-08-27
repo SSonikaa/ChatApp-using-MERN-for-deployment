@@ -10,7 +10,6 @@ import userRoutes from "./routes/user.route.js"
 
 import { app,server } from "./socket/socket.js"
 
-
 const PORTnew=8000
 const PORT= PORTnew || 5000
 dotenv.config()
@@ -29,8 +28,8 @@ app.get("*",(req,res)=>{
     res.sendFile(path.join(__dirname,"frontend","dist","index.html"))
 })
 
+
 server.listen(PORT,()=>{
     connecttomongodb(); 
     console.log(`server running ${PORT}`)
-    
 })

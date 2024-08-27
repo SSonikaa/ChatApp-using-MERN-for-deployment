@@ -1,0 +1,54 @@
+/* Container for each message */
+.chat-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end; 
+    margin-bottom: 1rem;
+}
+
+
+.chat-end {
+    justify-content: flex-end; 
+}
+
+
+.chat-start {
+    justify-content: flex-start; 
+}
+
+
+.avatar {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0.5rem; 
+}
+
+
+.chat-bubble {
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    max-width: 70%;
+    margin: 0 0.5rem; 
+    position: relative;
+}
+
+
+.chat-end .chat-bubble {
+    background-color: #3b82f6; 
+    color: white;
+}
+
+
+.chat-start .chat-bubble {
+    background-color: #e5e7eb; 
+    color: #000;
+}
+
+
+.chat-footer {
+    opacity: 0.5;
+    font-size: 0.75rem; 
+    margin-top: 0.25rem; 
+}

@@ -1,0 +1,14 @@
+/* Sidebar.css */
+
+.sidebar-container {
+	border-right: 1px solid #6b7280; /* Equivalent to slate-500 */
+	padding: 1rem; /* 4 units */
+	display: flex;
+	flex-direction: column;
+}
+
+.divider {
+	height: 1px;
+	background-color: #6b7280; /* Equivalent to slate-500 */
+	margin: 1rem 0; /* Add vertical spacing */
+}

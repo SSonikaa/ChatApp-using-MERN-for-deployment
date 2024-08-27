@@ -1,0 +1,46 @@
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.input-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.input-field {
+    flex-grow: 1;
+    padding: 10px;
+    padding-right: 50px; 
+    border: 1px solid #dbdd4c;
+    border-radius: 20px;
+    background-color: #c7bfbf;
+    color: rgb(0, 0, 0);
+}
+
+.send-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    color: rgb(2, 1, 85);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+.send-button svg {
+    width: 24px;
+    height: 24px;
+}
+.send-button:hover {
+    color: #007bff; 
+}

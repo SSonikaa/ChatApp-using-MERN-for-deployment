@@ -1,0 +1,8 @@
+/* Messages.css */
+
+.messages-container {
+	padding: 1rem; /* Equivalent to px-4 */
+	flex: 1;
+	overflow: auto;
+	color:aliceblue;
+}

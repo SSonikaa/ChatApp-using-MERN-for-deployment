@@ -1,0 +1,10 @@
+
+/* App.css */
+
+.container {
+	padding: 1rem; /* Equivalent to p-4 */
+	height: 100vh; /* Equivalent to h-screen */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

@@ -1,6 +1,8 @@
 import React from 'react';
-import MessageContainer from '../../components/messages/MessageContainer';
-import Sidebar from '../../components/Sidebar/Siderbar.jsx';
+
+import Sidebar from '../../src/components/Sidebar/Siderbar';
+import MessageContainer from '../../src/components/messages/MessageContainer';
+
 
 import './Home.css';
 
